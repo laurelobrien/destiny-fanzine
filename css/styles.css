@@ -1,6 +1,7 @@
 /* Global Styles
 ----------------------------*/
-.body {
+.body > * {
+  z-index: 999;
 }
 
 .container {
@@ -133,32 +134,33 @@ p.sans-serif {
   position: absolute;
   bottom: 20%;
   right: 0;
-  color: #ffffff;
-  background-color: #000000;
   width: 75%;
-  padding: 10vh 0 5vh 10vh;
-  z-index: 2;
-  height: 25vh;
+  padding: 15vh 0 15vh 10vh;
+  border: 1px solid #000000;
 }
 
-#stars img {
+#stars {
   position: absolute;
-  bottom: 20%;
-  right: 30%;
-  height: 30vh;
-  z-index: 1;
+  bottom: 27%;
+  right: 20%;
+  height: 32vh;
+  width: auto;
+  z-index: 2;
+}
+
+#map {
+  position: fixed;
+  right: 20%;
+  top: 10%;
+  height: 32vh;
+  width: auto;
+  z-index: 3;
 }
 
 #patterns h2 {
   font-weight: normal;
   letter-spacing: 0.05em;
   font-size: 16px;
-}
-
-.cover-container {
-  position: relative;
-  width: 100%;
-  height: auto;
 }
 
 
