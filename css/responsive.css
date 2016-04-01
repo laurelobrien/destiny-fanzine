@@ -1,0 +1,34 @@
+/* Portrait Tablets and smaller */
+@media screen and (max-width: 768px) {
+  .column-two, .column-three, .column-four {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+}
+
+
+/* Portrait Smartphones */
+@media screen and (max-width: 480px) {
+  .justify-col {
+    display: block;
+  }
+
+  .two-col, .three-col, .twothree-col {
+    display: block;
+    width: 100%;
+  }
+
+  .container, .container-large {
+    width: 80%;
+  }
+
+  p {
+    font-size: 14pt;
+  }
+
+  h1, h2, h3 {
+    font-size: 28pt;
+  }
+}
