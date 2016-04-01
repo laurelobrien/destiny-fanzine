@@ -101,14 +101,27 @@ p {
 }
 
 h1, h2, h3 {
-  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   text-align: left;
   margin-top: 0;
 }
 
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.trackout {
+  letter-spacing: 0.06em;
+}
+
+.trackin {
+  letter-spacing: -0.04em;
+}
+
 p.sans-serif {
-  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .page-title {
@@ -180,8 +193,13 @@ p.sans-serif {
 
 span::after {
   content: '°';
-  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #EE3322;
+}
+
+span.trackout::after {
+  content: none;
+  color: inherit;
 }
 
 
