@@ -1,0 +1,120 @@
+/* Global Styles
+----------------------------*/
+.body {
+  padding: 100px 0 0 0;
+}
+
+.container {
+  width: 65%;
+  margin: 100px auto;
+}
+
+.container-large {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page {
+  width: 100%;
+  margin: 0 0 35vh 0;
+}
+
+.img-large {
+  width: 100%;
+  margin: 0 0 10vh 0;
+}
+
+img {
+  width: 100%;
+}
+
+.column-two {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+
+.column-three {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 60px; /* Firefox */
+  column-gap: 60px;
+}
+
+.false-column-l {
+  width: 40%;
+  float: left;
+}
+.false-column-r {
+  width: 40%;
+  float: right;
+}
+
+.false-column-l img, .false-column-r img {
+  width: 100%;
+}
+
+.row {
+  margin: 0 0 5vh 0;
+  width: 100%;
+}
+
+.justify-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-col {
+  width: 45%;
+}
+
+.three-col {
+  width: 31%;
+}
+
+.twothree-col {
+  width: 62%;
+}
+
+/* Typography
+----------------------------*/
+
+p {
+  font-family: "Adobe Garamond Pro", Garamond, Georgia, serif;
+  font-size: 16px;
+  line-height: 1.57;
+  text-align: justify;
+  margin: 0 0 16px 0;
+}
+
+h1, h2, h3 {
+  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+p.sans-serif {
+  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+}
+
+.page-title {
+  font-weight: medium;
+  margin: 0 0 5vh 0;
+}
+
+.ruled {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 1vh 0;
+}
