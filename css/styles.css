@@ -113,3 +113,73 @@ p.sans-serif {
   border-bottom: 1px solid #000000;
   padding: 1vh 0;
 }
+
+
+
+/* Citations
+----------------------------*/
+
+.POI::after {
+  content: '°';
+  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+  color: #EE3322;
+}
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 12px;
+  width: 180px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 10%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+}
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 10%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
