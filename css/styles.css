@@ -81,6 +81,10 @@ img {
   width: 62%;
 }
 
+.four-col {
+  width: 23%;
+}
+
 .hide {
   display: none;
 }
