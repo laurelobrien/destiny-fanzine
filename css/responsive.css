@@ -15,7 +15,7 @@
     display: block;
   }
 
-  .two-col, .three-col, .twothree-col {
+  .two-col, .three-col, .twothree-col, .four-col {
     display: block;
     width: 100%;
   }
