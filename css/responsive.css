@@ -15,9 +15,13 @@
     display: block;
   }
 
-  .two-col, .three-col, .twothree-col {
+  .two-col, .three-col, .twothree-col, .four-col {
     display: block;
     width: 100%;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 
   .container, .container-large {
@@ -25,10 +29,10 @@
   }
 
   p {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 
   h1, h2, h3 {
-    font-size: 28pt;
+    font-size: 24pt;
   }
 }
