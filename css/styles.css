@@ -228,9 +228,17 @@ span::after {
   color: #EE3322;
 }
 
+span:hover {
+  border-bottom: 2px solid #EE3322;
+}
+
 span.trackout::after {
   content: none;
   color: inherit;
+}
+
+span.trackout:hover {
+  border: none;
 }
 
 
