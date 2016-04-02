@@ -183,7 +183,7 @@ hr {
   bottom: 20%;
   right: 0;
   width: 75%;
-  padding: 15vh 0 15vh 10vh;
+  padding: 15vh 0 10vh 10vh;
   border: 1px solid #000000;
 }
 
@@ -199,7 +199,7 @@ hr {
 #map {
   position: fixed;
   right: 20%;
-  top: 10%;
+  top: 0;
   height: 32vh;
   width: auto;
   z-index: 3;
