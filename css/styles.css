@@ -97,6 +97,10 @@ img {
 
 /* Typography
 ----------------------------*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 p {
   font-family: "adobe-garamond-pro", Garamond, Georgia, serif;
