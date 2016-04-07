@@ -9,6 +9,11 @@
   margin: 100px auto;
 }
 
+.container-small {
+  width: 50%;
+  margin: 30vh auto;
+}
+
 .container-large {
   width: 80%;
   margin: 0 auto;
@@ -240,6 +245,21 @@ span.trackout::after {
 
 span.trackout:hover {
   border: none;
+}
+
+
+
+#about img {
+  width: 80%;
+  margin: 0 0 0 auto;
+}
+
+#about .row {
+  margin-bottom: 10vh;
+}
+
+#about h3 {
+  text-transform: uppercase;
 }
 
 
